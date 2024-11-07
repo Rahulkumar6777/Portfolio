@@ -7,7 +7,7 @@ const About = () => {
                 <h2 className="title">About me</h2>
                 <div className="about-content">
                     <div className="column left">
-                        <img src="man3.png" alt="https://res.cloudinary.com/drwzgconp/image/upload/v1729750728/images-website/wizybdnmbzdzzyd5c5wt.jpg" />
+                    <img src={`${process.env.PUBLIC_URL}/mypic.jpg`} alt="Owner-pic" />
                     </div>
                     <div className="column right">
                         <div className="text">I'm Rahul and I'm a <span className="typing-2"></span></div>
