@@ -196,7 +196,7 @@
     /* home section styling */
     .home{
         display: flex;
-        background: url(https://img.freepik.com/free-vector/dark-low-poly-background_1048-7971.jpg?size=626&ext=jpg) no-repeat center;
+        background: url(https://images.unsplash.com/photo-1557682224-5b8590cd9ec5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60) no-repeat center;
         height: 100vh;
         color: #fff;
         min-height: 500px;
@@ -477,11 +477,11 @@
     .teams .title::before{
         background: #fff;
     }
-    .services .title::after,
+    /* .services .title::after,
     .teams .title::after{
         background: #111;
         content: "what i provide";
-    }
+    } */
     .services .serv-content .card{
         width: calc(33% - 20px);
         background: #222;
@@ -590,9 +590,9 @@
     }
     
     /* teams section styling */
-    .teams .title::after{
+    /* .teams .title::after{
         content: "who with me";
-    }
+    } */
     .teams .carousel .card{
         background: #222;
         border-radius: 6px;
