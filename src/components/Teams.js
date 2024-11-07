@@ -23,21 +23,21 @@ const Teams = () => {
                         </div>
                     </div>
                     <div className="card">
-                        <div className="box" onClick={() => handleClick('')}>
+                        <div className="box" >
                             <img src={`${process.env.PUBLIC_URL}/project-image.png`} alt="" />
                             <div className="text"></div>
                             <p></p>
                         </div>
                     </div>
                     <div className="card">
-                        <div className="box" onClick={() => handleClick('')}>
+                        <div className="box" >
                             <img src={`${process.env.PUBLIC_URL}/project-image.png`} alt="" />
                             <div className="text"></div>
                             <p></p>
                         </div>
                     </div>
                     <div className="card">
-                        <div className="box" onClick={() => handleClick('')}>
+                        <div className="box" >
                             <img src={`${process.env.PUBLIC_URL}/project-image.png`} alt="" />
                             <div className="text"></div>
                             <p></p>
