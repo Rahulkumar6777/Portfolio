@@ -43,7 +43,7 @@ const Header = () => {
                     <ul className="menu">
                         <li><a href="#home" className="menu-btn">Home</a></li>
                         <li><a href="#about" className="menu-btn">About</a></li>
-                        <li><a href="#teams" className="menu-btn">Teams</a></li>
+                        <li><a href="#projects" className="menu-btn">Projects</a></li>
                         
                         <li><a href="#skills" className="menu-btn">Talents</a></li>
                         <li><a href="#services" className="menu-btn">Skills</a></li>

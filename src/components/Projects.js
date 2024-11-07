@@ -1,13 +1,13 @@
 import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 
-const Teams = () => {
+const Projects = () => {
     const handleClick = (url) => {
         window.open(url, '_blank', 'noopener,noreferrer');
     };
 
     return (
-        <section className="teams" id="teams">
+        <section className="teams" id="projects">
             <div className="max-width">
                 <h2 className="title">My Projects</h2>
                 <OwlCarousel className="carousel" loop margin={20} autoplay autoplayTimeout={2000} autoplayHoverPause responsive={{
@@ -49,4 +49,4 @@ const Teams = () => {
     );
 };
 
-export default Teams;
+export default Projects;
