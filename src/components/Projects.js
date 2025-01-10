@@ -16,7 +16,7 @@ const Projects = () => {
                     1000: { items: 3, nav: false }
                 }}>
                     <div className="card">
-                        <div className="box" onClick={() => handleClick('https://4kimage.netlify.app/')}>
+                        <div className="box" onClick={() => handleClick('http://147.93.29.184:36209/')}>
                             <img src={`${process.env.PUBLIC_URL}/image-website.png`} alt="images-website" />
                             <div className="text">Images Website</div>
                             <p>Discover and share stunning images! Easily upload your own photos and download from a collection of beautiful images contributed by others.</p>
